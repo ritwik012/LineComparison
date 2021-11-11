@@ -6,8 +6,8 @@ namespace LineComparision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Line Comparision Computation Program");
-            LineCalculation ln = new LineCalculation(9.0, 1.0, 3.0, 5.0);
+            Console.WriteLine("Welcome to Line Comparision Program");
+            LineCalculation ln = new LineCalculation(6.0, 2.0, 3.0, 5.0);
             double lengthOne = ln.lengthCalculation();
             Console.WriteLine("The Length of the First Line is {0}", lengthOne);
             double lengthTwo = ln.lengthCalculation();

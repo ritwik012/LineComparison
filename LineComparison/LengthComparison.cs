@@ -22,9 +22,11 @@ namespace LineComparision
         public void Check(double lengthOne, double lengthTwo)
         {
             if (lengthOne.CompareTo(lengthTwo) == 0)
-            {
                 Console.WriteLine("Both the Lines are Equals");
-            }
+            if (lengthOne.CompareTo(lengthTwo) > 0)
+                Console.WriteLine("Line One is Greater then Line Two");
+            if (lengthOne.CompareTo(lengthTwo) < 0)
+                Console.WriteLine("Line Two is Greater then Line One");
         }
     }
 }
